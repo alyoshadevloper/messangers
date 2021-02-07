@@ -2,9 +2,9 @@
     "development" : {
         "socketUrl" : "http://localhost:3000/"
     },
-    // "production": {
-    //     "socketUrl" : "https://mysterious-shore-07737.herokuapp.com/"
-    // }
+    "production": {
+        "socketUrl" : "https://quiet-wildwood-26502.herokuapp.com/ "
+    }
 
 
 }
