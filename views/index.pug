@@ -14,9 +14,9 @@ block content
       .ui.items.chat
         .item(ng-repeat='message in messages')
           .content(ng-if="!message.type.code")
-            //- a.header.name {{ message.username }} &nbsp 
-            //- .description.messages(ng-if="!message.type.message") Oflayn
-            //- .description.messages(ng-if="message.type.message" ) Online
+            a.header.name {{ message.username }} &nbsp 
+            .description.messages(ng-if="!message.type.message") Oflayn
+            .description.messages(ng-if="message.type.message" ) Online
           .content(ng-if="message.type.code")
             a.header.name {{ message.username }} &nbsp 
             p.description.message(class="{{message.color}} ")  {{ message.text }}
