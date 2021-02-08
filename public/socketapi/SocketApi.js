@@ -1,6 +1,7 @@
 const socketio = require('socket.io')
 const io  = socketio()
 const random = require('../helper/randomColor')
+
 const SocketApi = { }
 SocketApi.io = io
 const users = {}
